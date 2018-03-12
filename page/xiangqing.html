@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>智享网联--IntelShare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Template by FREEHTML5"/>
+    <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive"/>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <!-- Simple Line Icons -->
+    <link rel="stylesheet" href="../css/simple-line-icons.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- Superfish -->
+    <link rel="stylesheet" href="../css/superfish.css">
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="../css/flexslider.css">
+
+    <link rel="stylesheet" href="../css/material.min.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/page/zhihui.css">
+    <link rel="stylesheet" href="../css/page/upgrade.css">
+
+    <!-- Modernizr JS -->
+    <script src="../js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="../js/respond.min.js"></script>
+    <![endif]-->
+    <script src="../js/pages/xiangqing.js"></script>
+
+</head>
+<body>
+<div id="fh5co-wrapper">
+    <div id="fh5co-page">
+        <div id="fh5co-header">
+            <header id="fh5co-header-section">
+                <div class="container">
+                    <div class="nav-header">
+                        <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+                        <h1 id="fh5co-logo"><a href="../index.html">InterShare</a></h1>
+                        <!-- START #fh5co-menu-wrap -->
+                        <nav id="fh5co-menu-wrap" role="navigation">
+                            <ul class="sf-menu" id="fh5co-primary-menu">
+                                <li>
+                                    <a href="../index.html">首页</a>
+                                </li>
+                                <li><a class="active" href="upgrade.html">产业升级</a>
+                                    <ul class="fh5co-sub-menu">
+                                        <li>
+                                            <a href="upgrade.html">研发服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="jinrong.html">金融服务</a>
+                                        </li>
+                                        <li>
+                                            <a href="zhihui.html">智慧管理</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="fund.html">产业基金</a>
+                                    <ul class="fh5co-sub-menu">
+                                        <li>
+                                            <a href="zixun.html">产业资讯</a>
+                                        </li>
+                                        <li>
+                                            <a href="jijin.html">产业基金</a>
+                                        </li>
+                                        <li>
+                                            <a href="fund.html">产研园区</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+                                <li><a href="global.html">全球合作站</a>
+                                    <ul class="fh5co-sub-menu">
+                                        <li>
+                                            <a href="global.html#australia">澳洲</a>
+                                        </li>
+                                        <li>
+                                            <a href="global.html#europe">欧洲</a>
+                                        </li>
+                                        <li>
+                                            <a href="global.html#north_america">北美</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">全球合伙人</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <div class="info_box clearFix">
+            <div class="img_background">
+                <img src="../images/upgrade/product.svg" alt="订货宝" id="company_logo" width="171" height="180">
+            </div>
+            <div class="text_box">
+                <h2 id="company_name"></h2>
+                <p id="company_desc">为企业搭建专属渠道订货平台</p>
+                <p class="tages"><span id="service_type"></span></p>
+                <p>
+                    浏览：<span id="view_count">0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;咨询：<span id="request_count">0</span>
+                </p>
+            </div>
+            <div class="btn_share">
+                <a href="#" class="btn btn-default"
+                   data-toggle="modal"
+                   data-target="#serviceRequestModal"><p>立即咨询</p></a>
+                <a href="#" target="_blank" class="btn btn-primary" id="company_website"><p style="color: #ffffff">
+                    进入官网</p></a>
+                <!-- <a href="javascript:;"><p>加入对比</p></a> -->
+            </div>
+        </div>
+        <!--详情介绍-->
+        <div class="content_box clearFix">
+            <div class="fl_left">
+                <div class="box_box">
+                    <div class="service_lables">
+                        <span class="active" name="spanone" onclick="showhidediv('one');">企业&服务</span>
+                        <!--<span name="spantwo" class="" onclick="showhidediv('two');">案例&评价</span>-->
+                    </div>
+                    <div>
+                        <div class="content_text" style="display: block;" id="lable-one">
+                            <div>
+                                <div class="text-align">
+                                    <img src="" width="500" height="300" id="banner_image">
+                                </div>
+                                <p id="banner_text"></p>
+                            </div>
+                            <hr class="marginhr">
+                            <div>
+                                <h3>管理团队</h3>
+                                <div class="clearFix">
+                                    <div class="row">
+                                        <div class="col-md-6 nopadding marginbottom20 peopletables">
+                                            <!--<div class="col-md-3 one nopadding text-align">-->
+                                            <!--<img class="margin-none"-->
+                                            <!--src="http://img4.iyiou.com/Picture/2017-03-28/58da2309e83a0.jpg"-->
+                                            <!--alt="蒋韬  创始人&CEO">-->
+                                            <!--</div>-->
+                                            <div class="col-md-9">
+                                                <p><span class="name" id="contact-name"></span></p>
+                                                <p class="content nomargin" id="contact-desc"></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 nopadding marginbottom20 peopletables">
+                                            <!--<div class="col-md-3 one nopadding text-align">-->
+                                            <!--<img class="margin-none"-->
+                                            <!--src="http://img3.iyiou.com/Picture/2017-03-28/58da233759944.jpg"-->
+                                            <!--alt="侯晓晖 创始人&CTO">-->
+                                            <!--</div>-->
+                                            <div class="col-md-9" id="contact2">
+                                                <p><span class="name" id="contact2-name"></span></p>
+                                                <p class="content nomargin" id="contact2-desc"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="marginhr">
+                            <div>
+                                <h3>服务介绍</h3>
+                                <div class="introduce_fu">
+                                    <img class="img-responsive" src="" id="detail_image">
+                                </div>
+                            </div>
+                            <hr class="marginhr">
+                            <div>
+                                <h3>说明</h3>
+                                <p id="additional"></p>
+                            </div>
+                        </div>
+                        <!--<div class="content_text" style="display: none;" id="lable-two">-->
+                        <!--<div class="paddingtop20">-->
+                        <!--<h3>成功案例</h3>-->
+                        <!--<div class="clearFix">-->
+                        <!--<div class="row yes">-->
+                        <!--<a href="https://www.dhb168.com/f/content/ID/2745.html" target="_blank"-->
+                        <!--title="两面针">-->
+                        <!--<div class="col-md-3 two">-->
+                        <!--<img src="http://img3.iyiou.com/Picture/2017-03-28/58da2556da9e6.png"-->
+                        <!--alt="两面针">-->
+                        <!--</div>-->
+                        <!--</a><a href=" https://www.dhb168.com/f/content/ID/2755.html" target="_blank"-->
+                        <!--title="雅鼎卫浴">-->
+                        <!--<div class="col-md-3 two">-->
+                        <!--<img src="http://img2.iyiou.com/Picture/2017-03-28/58da257c5a2c8.png"-->
+                        <!--alt="雅鼎卫浴">-->
+                        <!--</div>-->
+                        <!--</a><a href="https://www.dhb168.com/f/content/ID/2754.html" target="_blank"-->
+                        <!--title="大牧场食品">-->
+                        <!--<div class="col-md-3 two">-->
+                        <!--<img src="http://img1.iyiou.com/Picture/2017-03-28/58da25a1568d8.png"-->
+                        <!--alt="大牧场食品">-->
+                        <!--</div>-->
+                        <!--</a><a href=" https://www.dhb168.com/f/content/ID/2753.html" target="_blank"-->
+                        <!--title="双枪竹木">-->
+                        <!--<div class="col-md-3 two">-->
+                        <!--<img src="http://img1.iyiou.com/Picture/2017-03-28/58da25bf20386.png"-->
+                        <!--alt="双枪竹木">-->
+                        <!--</div>-->
+                        <!--</a><a href="https://www.dhb168.com/f/content/ID/2749.html" target="_blank"-->
+                        <!--title="桃花季  ">-->
+                        <!--<div class="col-md-3 two">-->
+                        <!--<img src="http://img2.iyiou.com/Picture/2017-03-28/58da25d9dd0b4.png"-->
+                        <!--alt="桃花季  ">-->
+                        <!--</div>-->
+                        <!--</a></div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<hr class="marginhr">-->
+                        <!--<div>-->
+                        <!--<h3>客户评价</h3>-->
+
+                        <!--</div>-->
+                        <!--&lt;!&ndash; <p class="btn-lat" data-num="4" class="lookMore"><span class="change">展开全部</span><span>4</span>条</p> &ndash;&gt;-->
+                        <!--<hr class="marginhr">-->
+                        <!--<div>-->
+                        <!--<h3>企业荣誉</h3>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="fl_right">
+                <div class="box_box">
+                    <h2 class="margin-none"><span>智享签</span></h2>
+                    <p class="margin-none" id="city"></p>                    <!-- <div class="lookmore">查看更多</div> -->
+                    <p class="margin-none" id="industry"></p>
+                    <!-- <div class="lookmore">查看更多</div> -->
+                    <p class="margin-none" id="price"></p>                    <!-- <div class="lookmore">查看更多</div> -->
+                </div>
+                <!--<div class="box_box margin-top28">-->
+                <!--<h2 class="margin-none"><span>企业文章</span></h2>-->
+                <!--<p class="margin-none">暂无文章</p>                    &lt;!&ndash; <div class="lookmore">查看更多</div> &ndash;&gt;-->
+                <!--</div>-->
+            </div>
+        </div>
+
+        <!--底部导航-->
+        <footer id="footer">
+            <div class="container-fluid">
+                <div class="row-fluid" style="text-align: center">
+                    <div class="span12">
+                        <div class="media">
+
+                            <div class="media-body">
+
+                                <ul class="social-icons">
+                                    <li>
+                                        <img src="../images/footer1.jpg" class="img-rounded" alt=''/>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon-twitter-with-circle"></i></a>
+                                        <a href="#"><i class="icon-facebook-with-circle"></i></a>
+                                        <a href="#"><i class="icon-instagram-with-circle"></i></a>
+                                        <a href="#"><i class="icon-linkedin-with-circle"></i></a>
+                                    </li>
+                                </ul>
+                                <small>&copy; 2017 intelshare | power by: Four2Nine. All Rights Reserved.</small>
+                                <br>
+                                <small>备案号：00000000000</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- END fh5co-page -->
+    <div class="modal fade" id="serviceRequestModal" tabindex="-1" role="dialog" style="margin-top: 100px">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <p class="modal-title" style="font-size: 2em; color: rgba(0, 0, 0, 0.7);">发布需求</p>
+                </div>
+                <div class="modal-body">
+                    <form role="form" class="form-horizontal" id="service-request-form">
+                        <div class="row">
+
+                            <div class="form-group">
+                                <span class="col-sm-3 control-label">公司名称</span>
+                                <div class="col-sm-9">
+                                    <input
+                                            type="text"
+                                            name="company-name"
+                                            id="company-name-req"
+                                            class="form-control"
+                                            placeholder="公司名称"
+                                            required>
+                                    <small id="company-name-req-error" class="error"></small>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-sm-3 control-label">公司规模</span>
+                                <div class="col-sm-9">
+                                    <select class="form-control" title="" name="scale" id="scale">
+                                        <option value="1" selected>500人以下</option>
+                                        <option value="2">500-2000人</option>
+                                        <option value="3">2000人以上</option>
+                                    </select>
+                                    <small id="scale-error" class="error"></small>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-sm-3 control-label">所属行业</span>
+                                <div class="col-sm-9">
+                                    <input type="text"
+                                           name="industry"
+                                           id="industry-req"
+                                           class="form-control"
+                                           placeholder="所属行业"
+                                           required="">
+                                    <small id="industry-error" class="error"></small>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-sm-3 control-label">所在城市</span>
+                                <div class="col-sm-9">
+                                    <input type="text"
+                                           name="city"
+                                           id="city-req"
+                                           placeholder="所在城市"
+                                           class="form-control"
+                                           required="">
+                                    <small id="city-error" class="error"></small>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-sm-3 control-label">服务类型</span>
+                                <div class="col-sm-9">
+                                    <input type="text"
+                                           name="service-type"
+                                           id="service-type"
+                                           class="form-control"
+                                           placeholder="服务类型"
+                                           required="">
+                                    <small id="service-type-error" class="error"></small>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-sm-3 control-label">预算</span>
+                                <div class="col-sm-9">
+                                    <input type="number" name="budget" id="budget" class="form-control" placeholder="预算"
+                                           min="0">
+                                    <small id="budget-error" class="error"></small>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="submitRequest()">提交需求</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END fh5co-wrapper -->
+
+<!-- jQuery -->
+<script src="../js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="../js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="../js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="../js/jquery.waypoints.min.js"></script>
+<!-- Superfish -->
+<script src="../js/hoverIntent.js"></script>
+<script src="../js/superfish.js"></script>
+<!-- Flexslider -->
+<script src="../js/jquery.flexslider-min.js"></script>
+<!-- Stellar -->
+<script src="../js/jquery.stellar.min.js"></script>
+<!-- Counters -->
+<script src="../js/jquery.countTo.js"></script>
+<script src="../js/material.min.js"></script>
+<!-- Main JS (Do not remove) -->
+
+<!-- SweetAlert Plugin Js -->
+<script src="../js/sweetalert.min.js"></script>
+
+<script src="../js/main.js"></script>
+<script src="../js/xiangqing.js"></script>
+
+</body>
+</html>
